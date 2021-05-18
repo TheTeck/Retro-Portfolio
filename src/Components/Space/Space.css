@@ -1,0 +1,11 @@
+.space-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(23, 8, 19);
+    position: relative;
+    perspective: 700px;
+    perspective-origin: 50% calc(50% - 100px);
+    overflow: hidden;
+}
+
+

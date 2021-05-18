@@ -1,0 +1,24 @@
+.arc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 300px;
+    border: 5px solid rgb(255, 0, 144);
+    border-radius: 300px 300px 0 0;
+    box-shadow: inset 0 0 15px rgb(255, 0, 144), 0 0 15px rgb(255, 0, 144);
+    animation: toggle 6s infinite linear ;
+}
+
+@keyframes toggle {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}

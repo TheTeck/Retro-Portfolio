@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'maocao';
+    src: url('../../fonts/maocao.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#landing-container {
+    font-family: 'maocao';
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(23, 8, 19);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-header {
+    font-family: Roboto;
+    font-size: 3em;
+    color: rgba(44, 44, 44, 0.347);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(210, 210, 210);
+}
+
+#sub-title-header {
+    font-family: 'maocao';
+    font-size: 3em;
+    color: rgb(255, 0, 144);
+}
+
+@media screen and (min-width: 750px) {
+    #title-header {
+        font-size: 5em;
+    }
+    #sub-title-header {
+        font-size: 5em;
+        position: relative;
+        top: -50px;
+        transform: rotateZ(-5deg);
+    }
+}
+
+#scroll-indicator {
+    position: absolute;
+    bottom: 10%;
+}
