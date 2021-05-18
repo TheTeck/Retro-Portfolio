@@ -1,21 +1,10 @@
 .space-container {
-    height: 100vh;
+    height: 1200px;
     width: 100vw;
     background-color: rgb(23, 8, 19);
     position: relative;
     perspective: 700px;
     overflow: hidden;
-}
-
-#enter-text {
-    font-family: Roboto, sans-serif;
-    color: rgb(197, 197, 197);
-    font-size: 3em;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, -300px);
-    cursor: pointer;
 }
 
 

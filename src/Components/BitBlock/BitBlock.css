@@ -1,0 +1,6 @@
+.bit-block {
+    margin: 0 2px 0 2px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 -1px 1px rgba(255, 0, 144, 0.361), 0 0 25px blue;
+}

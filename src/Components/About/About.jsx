@@ -1,0 +1,29 @@
+import React from 'react'
+import BitBlock from '../../Components/BitBlock/BitBlock'
+import './About.css'
+
+export default function About () {
+    return (
+        <div id="about-scene">
+            <div id="bit-block-container">
+                <BitBlock height={60} width={40} />
+                <BitBlock height={90} width={40} />
+                <BitBlock height={170} width={50} />
+                <BitBlock height={150} width={70} />
+                <BitBlock height={240} width={40} />
+                <BitBlock height={170} width={50} />
+                <BitBlock height={150} width={70} />
+                <BitBlock height={300} width={40} />
+                <BitBlock height={200} width={80} />
+                <BitBlock height={220} width={35} />
+                <BitBlock height={280} width={70} />
+                <BitBlock height={130} width={50} />
+                <BitBlock height={200} width={35} />
+                <BitBlock height={150} width={70} />
+                <BitBlock height={170} width={50} />
+                <BitBlock height={100} width={35} />
+                <BitBlock height={60} width={40} />
+            </div>
+        </div>
+    )
+}

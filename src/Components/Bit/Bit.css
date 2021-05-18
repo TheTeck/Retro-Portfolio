@@ -1,0 +1,11 @@
+.bit {
+    position: absolute;
+    color: rgb(0, 4, 255);
+    text-shadow: 0 0 5px rgb(134, 134, 255), 0 0 25px blue;
+}
+
+@keyframes float-up {
+    to {
+        transform: translateY(-350px);
+    }
+}
