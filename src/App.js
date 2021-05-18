@@ -7,6 +7,9 @@ function App() {
 
   return (
     <div className="App">
+      <div id="nav">
+        <a href="#about-scene">About Me</a>
+      </div>
       <Landing />
       <Space />
       <About />

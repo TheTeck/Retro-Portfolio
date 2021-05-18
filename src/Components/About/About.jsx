@@ -24,6 +24,20 @@ export default function About () {
                 <BitBlock height={100} width={35} />
                 <BitBlock height={60} width={40} />
             </div>
+            <div id="city-floor">
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+                <div className="floor-col"></div>
+            </div>
+            <div id="about-title">About Me</div>
+            <div id="about-info">I am a full-stack web developer out of the San Francisco bay area - determined to bring unique experiences for users through out-of-the-box solutions. With a background in music composition and luthiery, I can't help but to strive to implement as much artistry in my projects as I can.</div>
         </div>
     )
 }
