@@ -18,17 +18,29 @@
 }
 
 #title-header {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 3em;
     color: rgba(44, 44, 44, 0.347);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(210, 210, 210);
+    z-index: 2;
+}
+
+#title-header-glow {
+    font-family: Roboto, sans-serif;
+    font-size: 7em;
+    color: rgb(2, 2, 249);
+    position: absolute;
+    transform: translateY(-50%);
+    filter: blur(20px);
 }
 
 #sub-title-header {
-    font-family: 'maocao';
+    font-family: 'maocao', cursive;
     font-size: 3em;
     color: rgb(255, 0, 144);
+    text-shadow: 1px 2px black;
+    z-index: 3;
 }
 
 @media screen and (min-width: 750px) {
