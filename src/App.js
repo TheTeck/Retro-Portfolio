@@ -9,6 +9,10 @@ function App() {
     <div className="App">
       <div id="nav">
         <a href="#about-scene">About Me</a>
+        <a href="#">Technical Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
       </div>
       <Landing />
       <Space />

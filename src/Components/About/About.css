@@ -5,6 +5,7 @@
     background-color: rgb(23, 8, 19);
     perspective: 750px;
     perspective-origin: 50% calc(50% - 200px);
+    overflow: hidden;
 }
 
 #bit-block-container {
@@ -60,4 +61,5 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    line-height: 1.5em;
 }

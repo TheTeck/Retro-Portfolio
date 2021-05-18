@@ -8,7 +8,7 @@ export default function Arc () {
             <div 
                 className="hidden-arc"
                 style={{ transform: 'translate(-50%, -50%) translateZ(-250px) translateY(-50px)' }}>
-                <div id="enter-text">How you do <span className="italics">anything</span> is how you do <span className="italics">everything</span></div>
+                <div id="enter-text">"How you do <span className="italics">anything</span> is how you do <span className="italics">everything"</span></div>
             </div>
             <div 
                 className="arc" 
