@@ -22,8 +22,9 @@
 }
 
 #enter-text {
-    font-family: Roboto, sans-serif;
-    color: rgb(197, 197, 197);
+    font-family: "alien", Roboto, sans-serif;
+    color: blue;
+    text-shadow: 0 -2px 3px rgb(255, 0, 144);
     font-size: 3em;
     position: absolute;
     bottom: -0.8em;

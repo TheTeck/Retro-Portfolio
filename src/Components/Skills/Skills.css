@@ -1,0 +1,28 @@
+#skills-scene {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(23, 8, 19);
+    perspective: 750px;
+    perspective-origin: 50% calc(50% - 200px);
+    overflow: hidden;
+}
+
+#skills-title {
+    font-family: 'alien', cursive;
+    font-size: 3em;
+    color: rgb(255, 0, 144);
+    text-shadow: 25px 0 10px blue, -25px 0 10px blue;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+    #skills-title {
+        font-size: 4em;
+    }
+}
