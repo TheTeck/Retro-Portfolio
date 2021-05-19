@@ -32,11 +32,15 @@
 }
 
 #sub-title-header {
+    background-image: url('../../public/developer2.png');
+    width: 233px;
+    height: 97px;
     font-family: 'maocao', cursive;
     font-size: 3em;
     color: rgb(255, 0, 144);
     text-shadow: 1px 2px black;
     z-index: 3;
+    transform: translateY(-20px);
 }
 
 @media screen and (min-width: 750px) {
@@ -47,10 +51,12 @@
         font-size: 7em;
     }
     #sub-title-header {
-        font-size: 5em;
-        position: relative;
-        top: -50px;
-        transform: rotateZ(-5deg);
+        background-image: url('../../public/developer.png');
+        position: absolute;
+        width: 466px;
+        height: 194px;
+        top: 47%;
+        transform: perspective(750px) scale(0.8) translateX(170px) rotateY(25deg) rotateZ(-8deg);
     }
 }
 

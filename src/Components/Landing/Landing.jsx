@@ -9,7 +9,7 @@ export default function Landing () {
             <Nav />
             <h1 id="title-header">JOHN TECKEMEYER</h1>
             <h1 id="title-header-glow">JOHN TECKEMEYER</h1>
-            <h2 id="sub-title-header">Web Developer</h2>
+            <h2 id="sub-title-header"></h2>
             <div id="scroll-indicator">
                 <Chevron dir={'down'} size={30} />
             </div>
