@@ -1,6 +1,6 @@
 #skills-scene {
     width: 100vw;
-    height: 100vh;
+    height: 800px;
     position: relative;
     background-color: rgb(23, 8, 19);
     perspective: 750px;
@@ -21,8 +21,95 @@
     text-align: center;
 }
 
+#border-div {
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.corner {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(255, 0, 144);
+    z-index: -1;
+    transition: 500ms ease;
+    box-shadow: 0 0 15px rgb(255, 0, 144);
+}
+
+#border-tl {
+    top: 0;
+    left: 0;
+}
+
+#border-tr {
+    top: 0;
+    right: 0;
+}
+
+#border-bl {
+    bottom: 0;
+    left: 0;
+}
+
+#border-br {
+    bottom: 0;
+    right: 0;
+}
+
+#skills-container {
+    background-color: rgb(23, 8, 19);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+
+#border-div:hover .corner {
+    width: 50px;
+    height: 50px;
+}
+
+.skill {
+    font-family: "vcr", "Roboto", sans-serif;
+    color: blue;
+    width: 33%;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.skill:hover {
+    color: rgb(255, 0, 144);
+    text-shadow: 0 0 8px rgb(255, 0, 144), 0 20px 30px rgb(255, 0, 144);
+}
+
+#show-skill {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-family: "alien", "Roboto", sans-serif;
+    color: rgba(255, 245, 238, 0.885);
+    text-shadow: -25px 0 10px rgba(255, 245, 238, 0.488), 25px 0 10px rgba(255, 245, 238, 0.488);
+}
+
 @media screen and (min-width: 750px) {
     #skills-title {
         font-size: 4em;
+    }
+    .skill {
+        width: 25%;
+    }
+    #border-div {
+        width: 60%;
+    }
+    #show-skill {
+        font-size: 3em;
     }
 }
