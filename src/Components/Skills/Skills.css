@@ -93,10 +93,12 @@
     bottom: -100px;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
     font-size: 2em;
     font-family: "alien", "Roboto", sans-serif;
     color: rgba(255, 245, 238, 0.885);
     text-shadow: -25px 0 10px rgba(255, 245, 238, 0.488), 25px 0 10px rgba(255, 245, 238, 0.488);
+    pointer-events: none;
 }
 
 @media screen and (min-width: 750px) {

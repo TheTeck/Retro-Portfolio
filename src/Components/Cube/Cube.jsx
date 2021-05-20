@@ -1,9 +1,10 @@
 import React from 'react'
 import './Cube.css'
 
-export default function Cube ({ xLoc, yLoc, zLoc, size }) {
+export default function Cube ({ size, iconName }) {
     return (
         <div className="cube-container" style={{ width: `${size}px`, height: `${size}px` }}>
+            {iconName}
             <div className="cube-front"></div>
             <div className="cube-back"></div>
             <div className="cube-top"></div>

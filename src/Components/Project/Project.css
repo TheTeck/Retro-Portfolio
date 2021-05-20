@@ -1,0 +1,47 @@
+.project-container {
+    width: 100%;
+    position: relative;
+    perspective: 750px;
+    perspective-origin: 50% calc(50% - 200px);
+}
+
+.project-name {
+    font-size: 2em;
+    font-family: "alien", "Roboto", sans-serif;
+    color: rgba(255, 245, 238, 0.885);
+    text-shadow: -25px 0 10px rgba(255, 245, 238, 0.488), 25px 0 10px rgba(255, 245, 238, 0.488);
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.project-description {
+    text-align:justify;
+    width: 100%;
+    font-family: "vcr", 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(207, 207, 207);
+    text-shadow: 1px 2px black;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -28%);
+    line-height: 1.5em;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 750px) {
+    .project-container {
+        width: 60%;
+        min-width: 700px;
+        height: 700px !important;
+    }
+    .project-name {
+        left: 40%;
+    }
+    .project-description {
+        top: 330px;
+    }
+}
