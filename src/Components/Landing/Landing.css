@@ -49,6 +49,7 @@
     }
     #title-header-glow {
         font-size: 7em;
+        transform: translateY(0);
     }
     #sub-title-header {
         background-image: url('../../public/developer.png');

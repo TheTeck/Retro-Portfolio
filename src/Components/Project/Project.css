@@ -32,16 +32,44 @@
     pointer-events: none;
 }
 
+.project-link-container {
+    position: absolute;
+    bottom: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-link-container > * {
+    padding: 0 20px;
+    font-family: "alien", "Roboto", sans-serif;
+    font-size: 1.5em;
+    color: rgb(255, 0, 144);
+}
+
+.project-link-container > *:hover {
+    text-shadow: 0 0 8px rgb(255, 0, 144), 0 20px 30px rgb(255, 0, 144);
+}
+
 @media screen and (min-width: 750px) {
     .project-container {
         width: 60%;
         min-width: 700px;
-        height: 700px !important;
+        height: 750px !important;
     }
     .project-name {
-        left: 40%;
+        left: 20%;
+        top: 80px;
+        width: 50%;
+        text-align: center;
     }
     .project-description {
         top: 330px;
+    }
+    .project-link-container {
+        top: 140px;
+        left: 0;
+        width: 50%;
+        justify-content: center;
     }
 }
