@@ -19,7 +19,7 @@ export default function Nav () {
                     <a href="#about-scene">About Me</a>
                     <a href="#skills-scene">Technical Skills</a>
                     <a href="#projects-scene">Projects</a>
-                    <a href="#">Resume</a>
+                    <a href="#resume-scene">Resume</a>
                     <a href="#">Contact</a>
                 </div>
             </div>
