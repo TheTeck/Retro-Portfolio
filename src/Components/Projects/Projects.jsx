@@ -10,7 +10,7 @@ export default function Projects () {
                 <Project name={"music"} />
                 <Project name={"firefly"} />
                 <Project name={"dogs"} />
-                <Project name={"barter"} />
+                {/* <Project name={"barter"} /> */}
             </div>
         </div>
     )
