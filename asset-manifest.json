@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/retro-portfolio/static/css/main.b6ea22ec.chunk.css",
-    "main.js": "/retro-portfolio/static/js/main.2cef6e8b.chunk.js",
-    "main.js.map": "/retro-portfolio/static/js/main.2cef6e8b.chunk.js.map",
-    "runtime-main.js": "/retro-portfolio/static/js/runtime-main.c8f86c75.js",
-    "runtime-main.js.map": "/retro-portfolio/static/js/runtime-main.c8f86c75.js.map",
-    "static/js/2.6633d5d8.chunk.js": "/retro-portfolio/static/js/2.6633d5d8.chunk.js",
-    "static/js/2.6633d5d8.chunk.js.map": "/retro-portfolio/static/js/2.6633d5d8.chunk.js.map",
-    "static/js/3.f99644db.chunk.js": "/retro-portfolio/static/js/3.f99644db.chunk.js",
-    "static/js/3.f99644db.chunk.js.map": "/retro-portfolio/static/js/3.f99644db.chunk.js.map",
-    "index.html": "/retro-portfolio/index.html",
-    "static/css/main.b6ea22ec.chunk.css.map": "/retro-portfolio/static/css/main.b6ea22ec.chunk.css.map",
-    "static/js/2.6633d5d8.chunk.js.LICENSE.txt": "/retro-portfolio/static/js/2.6633d5d8.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/retro-portfolio/static/media/vcr.10cf96d5.ttf",
-    "static/media/Landing.css": "/retro-portfolio/static/media/developer.52bc4ec4.png"
+    "main.css": "/Retro-Portfolio/static/css/main.109e9142.chunk.css",
+    "main.js": "/Retro-Portfolio/static/js/main.2cef6e8b.chunk.js",
+    "main.js.map": "/Retro-Portfolio/static/js/main.2cef6e8b.chunk.js.map",
+    "runtime-main.js": "/Retro-Portfolio/static/js/runtime-main.44a01a10.js",
+    "runtime-main.js.map": "/Retro-Portfolio/static/js/runtime-main.44a01a10.js.map",
+    "static/js/2.6633d5d8.chunk.js": "/Retro-Portfolio/static/js/2.6633d5d8.chunk.js",
+    "static/js/2.6633d5d8.chunk.js.map": "/Retro-Portfolio/static/js/2.6633d5d8.chunk.js.map",
+    "static/js/3.f99644db.chunk.js": "/Retro-Portfolio/static/js/3.f99644db.chunk.js",
+    "static/js/3.f99644db.chunk.js.map": "/Retro-Portfolio/static/js/3.f99644db.chunk.js.map",
+    "index.html": "/Retro-Portfolio/index.html",
+    "static/css/main.109e9142.chunk.css.map": "/Retro-Portfolio/static/css/main.109e9142.chunk.css.map",
+    "static/js/2.6633d5d8.chunk.js.LICENSE.txt": "/Retro-Portfolio/static/js/2.6633d5d8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Retro-Portfolio/static/media/vcr.10cf96d5.ttf",
+    "static/media/Landing.css": "/Retro-Portfolio/static/media/developer.52bc4ec4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8f86c75.js",
+    "static/js/runtime-main.44a01a10.js",
     "static/js/2.6633d5d8.chunk.js",
-    "static/css/main.b6ea22ec.chunk.css",
+    "static/css/main.109e9142.chunk.css",
     "static/js/main.2cef6e8b.chunk.js"
   ]
 }
