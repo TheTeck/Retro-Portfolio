@@ -1,0 +1,91 @@
+#contact-scene {
+    width: 100vw;
+    height: 1200px;
+    position: relative;
+    background-color: rgb(23, 8, 19);
+    perspective: 750px;
+    perspective-origin: 50% calc(50% - 200px);
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+#contact-title {
+    font-family: 'alien', cursive;
+    font-size: 3em;
+    color: rgb(255, 0, 144);
+    text-shadow: 25px 0 10px blue, -25px 0 10px blue;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+#sun {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(orange, rgb(255, 0, 255));
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sun-line {
+    width: 100%;
+    background-color: rgb(23, 8, 19);
+    position: absolute;
+}
+
+.reflection {
+    transform:translate(-50%, 400px) rotateX(90deg) rotateZ(180deg) scaleY(2) !important;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+#grid-container {
+    width: 2000px;
+    height: 2000px;
+    position: absolute;
+    background-color:rgb(23, 8, 19);
+    top:250px;
+    left: 50%;
+    transform: translateX(-50%) rotateX(90deg) translateY(-900px);
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+#grid-container > * {
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+}
+
+.contact-coupling {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 6;
+}
+
+.contact-coupling p {
+    color: rgb(255, 0, 144);
+    font-size: 2em;
+    font-family: 'alien', 'Roboto', sans-serif;
+    pointer-events: none;
+}
+
+.contact-coupling a {
+    color: rgb(208, 208, 208);
+    font-size: 1.5em;
+    font-family: 'vcr', 'Roboto', sans-serif;
+}

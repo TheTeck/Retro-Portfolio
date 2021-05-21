@@ -20,7 +20,7 @@ export default function Nav () {
                     <a href="#skills-scene">Technical Skills</a>
                     <a href="#projects-scene">Projects</a>
                     <a href="#resume-scene">Resume</a>
-                    <a href="#">Contact</a>
+                    <a href="#contact-scene">Contact</a>
                 </div>
             </div>
             

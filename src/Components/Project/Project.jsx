@@ -40,7 +40,7 @@ export default function Project ({ name }) {
             <div className="project-container" style={{ height: '930px'}}>
                 <Cube size={200} iconName={natureIcon}/>
                 <div className="project-name">Fireflies</div>
-                <div className="project-description" style={{ top: '360px'}}>FIREFLIES IS A SMALL APP THAT I MADE IN ORDER TO PRACTICE MY NEWLY ACQUIRED SKILLS IN REACT. IT WAS MADE SOLELY BY ME OVER ONE WEEKEND. IT IS A FAIRLY SIMPLE APP THAT DISPLAY "FIREFLIES" IN A DARK ENVIRONMENT, WHICH COULD BE CONSIDERED A MODIFIABLE SCREENSAVER, AT MOST.</div>
+                <div className="project-description" style={{ top: '360px'}}>FIREFLIES IS A SMALL APP THAT I MADE IN ORDER TO PRACTICE MY NEWLY ACQUIRED SKILLS IN REACT. IT WAS A SOLO PROJECT MADE OVER ONE WEEKEND. IT IS A FAIRLY SIMPLE APP THAT DISPLAY "FIREFLIES" IN A DARK ENVIRONMENT, WHICH COULD BE CONSIDERED A MODIFIABLE SCREENSAVER, AT MOST.</div>
                 <div className="project-link-container">
                     <a href="https://github.com/TheTeck/Fireflies" rel="noreferrer" target="_blank">GITHUB</a>
                     <a href="https://theteck.github.io/Fireflies/" rel="noreferrer" target="_blank">GH-PAGES</a>

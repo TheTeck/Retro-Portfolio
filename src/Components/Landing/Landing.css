@@ -19,6 +19,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(210, 210, 210);
     z-index: 2;
+    pointer-events: none;
 }
 
 #title-header-glow {
@@ -29,6 +30,7 @@
     transform: translateY(-50%);
     filter: blur(20px);
     text-overflow: clip;
+    pointer-events: none;
 }
 
 #sub-title-header {
