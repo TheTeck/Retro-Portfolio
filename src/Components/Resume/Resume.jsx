@@ -4,7 +4,7 @@ import './Resume.css'
 export default function Resume () {
     return (
         <div id="resume-scene">
-            <a href="resume.pdf" target="_blank"><div id="resume-icon" className="material-icons">description</div></a>
+            <a href="design_resume.pdf" target="_blank"><div id="resume-icon" className="material-icons">description</div></a>
             
             <div id="resume-title">Resume</div>
             <div id="directions">VIEW RESUME</div>
