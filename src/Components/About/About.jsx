@@ -3,6 +3,12 @@ import BitBlock from '../../Components/BitBlock/BitBlock'
 import './About.css'
 
 export default function About () {
+    const c1 = new Audio('snap.mp3')
+
+    function handleC1Key () {
+        c1.play()
+    }
+
     return (
         <div id="about-scene">
             <div id="bit-block-container">
@@ -26,7 +32,7 @@ export default function About () {
             </div>
             <div id="city-floor">
                 <div className="floor-flare"></div>
-                <div className="floor-col"></div>
+                <div onClick={handleC1Key} className="floor-col"></div>
                 <div className="floor-col"></div>
                 <div className="floor-col"></div>
                 <div className="floor-col"></div>
