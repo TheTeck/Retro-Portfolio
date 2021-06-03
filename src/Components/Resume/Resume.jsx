@@ -8,6 +8,8 @@ export default function Resume () {
             
             <div id="resume-title">Resume</div>
             <div id="directions">VIEW RESUME</div>
+            <a href="John Teckemeyer - GA Resume.pdf" target="_blank"><div id="ats">ATS Resume</div></a>
+
             <div id="head-outer-container">
                 <div id="head-inner-container2">
                     <img id="my_head" src="neon_me.png" alt="My head in a neon pink 80's syle" />
