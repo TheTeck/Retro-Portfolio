@@ -10,7 +10,7 @@ export default function Skills () {
     }
 
     return (
-        <div id="skills-scene">
+        <div id="technical-skills">
             <div id="skills-title">Technical Skills</div>
             <div id="border-div">
                 

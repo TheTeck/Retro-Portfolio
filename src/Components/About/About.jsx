@@ -39,7 +39,7 @@ export default function About () {
     }
 
     return (
-        <div id="about-scene">
+        <div id="about-me">
             <div id="bit-block-container">
                 <BitBlock height={60} width={40} />
                 <BitBlock height={90} width={40} />

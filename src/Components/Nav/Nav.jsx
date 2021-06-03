@@ -16,11 +16,11 @@ export default function Nav () {
             
             <div id="nav-container">
                 <div id="nav" className={menuActive ? "nav-exposed" : "nav-hidden"} >
-                    <a href="#about-scene">About Me</a>
-                    <a href="#skills-scene">Technical Skills</a>
-                    <a href="#projects-scene">Projects</a>
-                    <a href="#resume-scene">Resume</a>
-                    <a href="#contact-scene">Contact</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#technical-skills">Technical Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
             

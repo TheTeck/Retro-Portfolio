@@ -3,7 +3,7 @@ import './Contact.css'
 
 export default function Contact () {
     return (
-        <div id="contact-scene">
+        <div id="contact">
             <div id="contact-title">Contact</div>
             <div id="sun">
                 <div className="sun-line" style={{ bottom: '10px', height: '10px' }}></div>

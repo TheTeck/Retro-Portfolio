@@ -1,4 +1,4 @@
-#projects-scene {
+#projects {
     width: 100vw;
     height: 3220px;
     position: relative;
@@ -37,7 +37,7 @@
     #projects-container {
         top: 12%;
     }
-    #projects-scene {
+    #projects {
         height: 2500px;
     }
 }

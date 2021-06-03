@@ -4,7 +4,7 @@ import './Projects.css'
 
 export default function Projects () {
     return (
-        <div id="projects-scene">
+        <div id="projects">
             <div id="projects-title">Projects</div>
             <div id="projects-container">
                 <Project name={"music"} />
