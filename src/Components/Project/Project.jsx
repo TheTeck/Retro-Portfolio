@@ -8,6 +8,7 @@ export default function Project ({ name }) {
     const pawIcon = <div id="icon-div" className="material-icons">pets</div>
     const natureIcon = <div id="icon-div" className="material-icons">emoji_nature</div>
     const sellIcon = <div id="icon-div" className="material-icons">sell</div>
+    const puzzleIcon = <div id="icon-div" className="material-icons">extension</div>
 
     let output
 
@@ -28,7 +29,7 @@ export default function Project ({ name }) {
             <div className="project-container" style={{ height: '950px'}}>
                 <Cube size={200} iconName={sellIcon}/>
                 <div className="project-name">Bartertown</div>
-                <div className="project-description" style={{ top: '400px'}}>BARTERTOWN IS AN ONLINE TRADING SITE WHERE USERS CAN PROPOSE TRADES OF THEIR GOODS FOR OTHER USERS'. ITMES CAN BE BID AND COMMENTED UPON AND, IF THE USER ACCEPTS A BID, A DEAL IS MADE, WHICH WILL CREATE A PRIVATE LINE OF COMMUNICATION BETWEEN THE TWO USERS.</div>
+                <div className="project-description" style={{ top: '400px'}}>BARTERTOWN IS AN ONLINE TRADING SITE WHERE USERS CAN PROPOSE TRADES OF THEIR GOODS FOR OTHER USERS'. ITMES CAN BE BIDDED AND COMMENTED UPON AND, IF THE USER ACCEPTS A BID, A DEAL IS MADE, WHICH WILL CREATE A PRIVATE LINE OF COMMUNICATION BETWEEN THE TWO USERS.</div>
                 <div className="project-link-container">
                     <a href="https://github.com/TheTeck/Bartertown" rel="noreferrer" target="_blank">GITHUB</a>
                     <a href="https://bartertown22.herokuapp.com/" rel="noreferrer" target="_blank">HEROKU</a>
@@ -56,6 +57,18 @@ export default function Project ({ name }) {
                 <div className="project-link-container">
                     <a href="https://github.com/farazborjian/OurAlley" rel="noreferrer" target="_blank">GITHUB</a>
                     <a href="https://ouralley.herokuapp.com/" rel="noreferrer" target="_blank">HEROKU</a>
+                </div>
+            </div>
+        )
+    } else if (name === 'puzzle') {
+        output = (
+            <div className="project-container" style={{ height: '950px'}}>
+                <Cube size={200} iconName={puzzleIcon}/>
+                <div className="project-name">Just Puzzles</div>
+                <div className="project-description" style={{ top: '360px'}}>JUST PUZZLES IS AN ONLINE DEPOT OF DAILY PUZZLES THAT USERS CAN PLAY. THOUGH I BUILT IT WITH AN USER-FRIENDLY RESPONSIVE DESIGN, THE MAIN FOCUS OF THIS APP WAS THE IMPLEMENTATION OF THE GENERATION AND PLAY OF THE PUZZLES USING REACT.JS</div>
+                <div className="project-link-container">
+                    <a href="https://github.com/TheTeck/JustPuzzles" rel="noreferrer" target="_blank">GITHUB</a>
+                    <a href="https://just-puzzles.herokuapp.com/" rel="noreferrer" target="_blank">HEROKU</a>
                 </div>
             </div>
         )
