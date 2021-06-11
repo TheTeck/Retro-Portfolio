@@ -1,6 +1,6 @@
 #projects {
     width: 100vw;
-    height: 3220px;
+    height: 4300px;
     position: relative;
     background-color: rgb(23, 8, 19);
     overflow: hidden;
@@ -38,6 +38,6 @@
         top: 12%;
     }
     #projects {
-        height: 2500px;
+        height: 3500px;
     }
 }
