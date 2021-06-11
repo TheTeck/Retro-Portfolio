@@ -1,4 +1,4 @@
-#resume-scene {
+#resume {
     width: 100vw;
     height: 1200px;
     position: relative;
@@ -49,6 +49,17 @@
     transform: translateX(-50%);
     pointer-events: none;
 }
+
+#ats {
+    font-family: "vcr", "Roboto", sans-serif;
+    font-size: 0.8em;
+    color: rgb(215, 215, 215);
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 #head-outer-container {
     position: absolute;

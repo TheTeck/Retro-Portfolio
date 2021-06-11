@@ -1,6 +1,6 @@
-#projects-scene {
+#projects {
     width: 100vw;
-    height: 3220px;
+    height: 4300px;
     position: relative;
     background-color: rgb(23, 8, 19);
     overflow: hidden;
@@ -37,7 +37,7 @@
     #projects-container {
         top: 12%;
     }
-    #projects-scene {
-        height: 2500px;
+    #projects {
+        height: 3500px;
     }
 }

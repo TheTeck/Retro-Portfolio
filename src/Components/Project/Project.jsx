@@ -25,10 +25,10 @@ export default function Project ({ name }) {
         )
     } else if (name === 'barter') {
         output = (
-            <div className="project-container" style={{ height: '1180px'}}>
+            <div className="project-container" style={{ height: '950px'}}>
                 <Cube size={200} iconName={sellIcon}/>
                 <div className="project-name">Bartertown</div>
-                <div className="project-description" style={{ top: '400px'}}>BARTERTOWN IS AN ONLINE TRADING SITE WHERE USERS MAY FIND ANYTHING ANOTHER USER IS WANTING TO TRADE AND CAN PROPOSE THEIR OWN TRADES. OTHER USERS MAY LEAVE COMMENTS ON THE ITEM'S SHOW PAGE AS WELL AS MAKE A BID FOR THAT ITEM WITH THEIR OWN ITEMS. IF THE OWNER OF THE ORIGINAL TRADE PROPOSAL LIKES ONE OF THE BIDS, THEY CAN THEN DECIDE TO MAKE A DEAL, WHICH WILL CREATE A PRIVATE LINE OF COMMUNICATION BETWEEN THE TWO USERS AND WILL REMOVE BOTH ITEMS OF THE TRADE FROM THE COMMUNITY.</div>
+                <div className="project-description" style={{ top: '400px'}}>BARTERTOWN IS AN ONLINE TRADING SITE WHERE USERS CAN PROPOSE TRADES OF THEIR GOODS FOR OTHER USERS'. ITMES CAN BE BID AND COMMENTED UPON AND, IF THE USER ACCEPTS A BID, A DEAL IS MADE, WHICH WILL CREATE A PRIVATE LINE OF COMMUNICATION BETWEEN THE TWO USERS.</div>
                 <div className="project-link-container">
                     <a href="https://github.com/TheTeck/Bartertown" rel="noreferrer" target="_blank">GITHUB</a>
                     <a href="https://bartertown22.herokuapp.com/" rel="noreferrer" target="_blank">HEROKU</a>
