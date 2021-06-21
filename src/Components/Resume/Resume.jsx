@@ -8,7 +8,7 @@ export default function Resume () {
             
             <div id="resume-title">Resume</div>
             <div id="directions">VIEW RESUME</div>
-            <a href="John Teckemeyer - GA Resume.pdf" target="_blank"><div id="ats">ATS Resume</div></a>
+            <a href="John Teckemeyer Resume.pdf" target="_blank"><div id="ats">ATS Resume</div></a>
 
             <div id="head-outer-container">
                 <div id="head-inner-container2">
