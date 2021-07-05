@@ -37,7 +37,7 @@ export default function Contact () {
             </div>
             <div className="contact-coupling" style={{ top: '850px' }}>
                 <p>github: </p>
-                <a href="https://github.com/TheTeck" rel="noreferrer" target="_blank">GITUB.COM/THETECK</a>
+                <a href="https://github.com/TheTeck" rel="noreferrer" target="_blank">GITHUB.COM/THETECK</a>
             </div>
             <div className="contact-coupling" style={{ top: '950px' }}>
                 <p>linkedin: </p>
